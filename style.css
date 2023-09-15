@@ -649,6 +649,23 @@ header.sticky{
     transition: all .45s ease;
 }
 }
+@media (max-width:544px)
+{
+    .home-text h1{
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: #fff;
+        list-style: 1.1;
+        margin: 0 0 8px;
+    }
+    .home-text h3{
+        color: #fff;
+        margin: 0 0 35px;
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1.1;
+    }
+}
 @media (max-width:500px)
 {
     #menu-icon{
